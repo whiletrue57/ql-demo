@@ -7,7 +7,7 @@ import datetime
 
 """
 任务名称
-name: 演示脚本
+name: demo.py
 定时规则
 cron: * * * * *
 """
