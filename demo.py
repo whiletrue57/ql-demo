@@ -11,6 +11,7 @@ name: 演示脚本
 定时规则
 cron: * * * * *
 """
+import pandas
 
 def main():
     logging.info("Hello, World!")
