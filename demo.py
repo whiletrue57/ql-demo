@@ -7,6 +7,7 @@ import traceback_alert
 # 从这里开始，所有未处理异常都会被自动捕获并告警
 import logging
 import datetime
+import sys
 # import pandas  # 即使这里报错，也会触发飞书通知！
 # a = 1 / 0  # 故意制造一个错误，测试全局异常处理器
 # a = 1 + "1"
