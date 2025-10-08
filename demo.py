@@ -11,6 +11,9 @@ name: 演示脚本
 定时规则
 cron: * * * * *
 """
+import sys
+print(sys.argv)
+
 import pandas
 
 def main():
