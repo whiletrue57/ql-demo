@@ -5,6 +5,13 @@
 import logging
 import datetime
 
+"""
+任务名称
+name: 演示脚本
+定时规则
+cron: * * * * *
+"""
+
 def main():
     logging.info("Hello, World!")
     logging.info("This is a demo script.")
